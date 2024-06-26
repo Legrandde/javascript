@@ -1,0 +1,111 @@
+.factorielle, .nombrePremier, .jeu, .calculatrice{
+    width: 600px;
+    margin: auto;
+    background-color: #ddd;
+    padding: 10px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(161, 161, 161);
+    margin-top: 200px;
+}
+body{
+    /* background-color: aqua; */
+    /* background-image: url("images/Unipro-Senegal-dakar-marketing-gestion-management-formation-logo-1024x1024.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1{
+    text-align: center;
+    font-weight: 700px;
+    color: rgb(82, 79, 79);
+}
+p{
+    text-align: center;
+    transition-timing-function: ease-in-out;
+}
+input{
+    display: block;
+    margin:auto;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+}
+button{
+    display: block;
+    padding: 10px;
+    margin: auto;
+    width: 600px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 1px solid black;
+    background-color: skyblue;
+    animation-name: boutton;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+/* /* @keyframes boutton{
+    0%{
+        background-color: skyblue;
+    }
+    25%{
+        background-color: red;
+    }
+    50%{
+        background-color: blue;
+    }
+    75%{
+        background-color:yellowgreen;
+    }
+    100%{
+        background-color: orange;
+    } 
+} */
+button:hover{
+    background-color: rgb(69, 127, 156);
+}
+.victoire{
+    animation-name: victoire;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    animation-delay: 3s;
+}
+#body{
+    animation-name: victoire;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+/* @keyframes victoire{
+    0%{
+        background-color: red;
+    }
+    25%{
+        background-color: blue;
+    }
+    50%{
+        background-color: green;
+    }
+    75%{
+        background-color: aqua;
+    }
+    100%{
+        border-color: yellow;
+    }
+} */
+.calculatrice{
+    height: 300px;
+
+}
+.calculatrice select{
+
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+}
+.calculatrice input{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100px;
+}

@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #ddd;
+    display: block;
+    min-height: 100vh;
+}
+.contenaire{
+    width: 500px;
+    background-color: #ddd;
+    color: black;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: auto;
+    margin-top: 00px;
+}
+button{
+    /* color: white; */
+    display: block;
+    width: 200px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    cursor: pointer;
+    border: 1px solid rgb(211, 208, 208);
+    border-radius: 5px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#Calculatrice
+{
+    background-color: green;
+}
+
+#factorielle{
+    background-color: rgb(234, 234, 7);
+}
+#nombrePremier{
+    background-color: orange;
+}
+#jeuHasard{
+    background-color: skyblue;
+}
+#Calculatrice:hover{
+    box-shadow: 0 0 10px rgb(109, 108, 108);
+}
+#factorielle:hover{
+   box-shadow: 0 0 10px rgb(103, 102, 102);
+}
+#nombrePremier:hover{
+    box-shadow: 0 0 10px rgb(103, 102, 102);
+ }
+#jeuHasard:hover{
+    box-shadow: 0 0 10px rgb(103, 102, 102);
+}
+
